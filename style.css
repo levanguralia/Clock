@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    font-family: Arial, Helvetica, sans-serif;
+display: flex;
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+}
+
+.Clock-container{
+   
+    background-color: #1d1c1c;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    text-align: center;
+    padding: 25px 15px;
+width: 400px;
+border-radius: 15px;
+}
+
+.numbers{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.lable{
+    color: white;
+}
